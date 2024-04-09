@@ -2,9 +2,12 @@
 
 This project aims to structure and classify information on individuals contained in a corpus of documents. The goal is to implement a system capable of accurately identifying and categorizing data such as surname, first name, age, year of birth, relationship to head of household, nationality, and many others. This classification process would not only allow data to be organized more efficiently, but also enable more in-depth and targeted analyses.
 
-
 Here is the structure of this repository:
-- **data/**: This directory contains the dataset used in the project. It can include raw data, processed data, and metadata.
-- **models/**: This directory contains the trained model files.
-- **src/**: This directory contains the source code for the project and the notebooks for descriptive statistics and experimentation. It includes scripts for data preprocessing, model training, model evaluation, etc.
-- **requirements.txt**: This file lists the Python dependencies required to run the project.
+- `data/`: This directory contains the datasets and data-related resources.
+- `src/`: Source code for the project.
+  - `experiment_helper.py`: A Python script that contain helper functions for running experiments.
+  - `experiment.ipynb`: A Jupyter notebook used for finetuning NLP models.
+  - `load_data.py`: A Python script for loading data.
+  - `preprocessing.py`: A Python script dedicated to data preprocessing steps.
+  - `stat_des.ipynb`: A Jupyter notebook used for statistical descriptions, contains exploratory data analysis.
+- `requirements.txt`: A text file containing a list of Python packages required to run the project.
